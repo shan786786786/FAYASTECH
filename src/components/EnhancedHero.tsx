@@ -151,8 +151,8 @@ export default function EnhancedHero() {
         className="relative z-10 container mx-auto px-4"
       >
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div className="text-center lg:text-left">
+          {/* Left Content - Full width on mobile, half width on desktop */}
+          <div className="text-center lg:text-left lg:col-span-1">
             <motion.div variants={textVariants} className="mb-6">
               <motion.span 
                 className="inline-block text-cyan-500 font-semibold text-lg mb-2"
@@ -310,8 +310,8 @@ export default function EnhancedHero() {
             </motion.div>
           </div>
 
-          {/* Right Content - Gaming Specs */}
-          <motion.div variants={itemVariants} className="relative">
+          {/* Right Content - Gaming Specs - Hidden on Mobile */}
+          <motion.div variants={itemVariants} className="relative hidden lg:block">
             <Tilt
               className="parallax-effect-img"
               tiltMaxAngleX={15}
