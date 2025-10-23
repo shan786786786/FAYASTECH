@@ -111,16 +111,16 @@ export default function About() {
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                With over <strong className="text-cyan-400">15 years of experience</strong>, I've completed <strong className="text-cyan-400">100+ projects</strong> 
-                helping businesses and people create amazing digital experiences. I'm like a tech doctor who can:
-                <br />• <strong>Diagnose</strong> what's wrong with websites or systems
+                With over <strong className="text-cyan-400">15 years of experience</strong>, I&apos;ve completed <strong className="text-cyan-400">100+ projects</strong> 
+                helping businesses and people create amazing digital experiences. I&apos;m like a tech doctor who can:
+                <br />• <strong>Diagnose</strong> what&apos;s wrong with websites or systems
                 <br />• <strong>Cure</strong> problems by writing special computer code
                 <br />• <strong>Prevent</strong> future issues by building strong, secure systems
               </p>
 
               {/* Technical Expertise in Simple Terms */}
               <div className="space-y-4">
-                <h4 className="text-lg font-semibold text-white">What I'm Really Good At:</h4>
+                <h4 className="text-lg font-semibold text-white">What I&apos;m Really Good At:</h4>
                 
                 {/* Frontend Technologies */}
                 <div className="p-4 bg-purple-900/20 border border-purple-500/30 rounded-lg">
@@ -220,7 +220,7 @@ export default function About() {
                 <ul className="space-y-2 text-gray-300 text-sm">
                   <li>• <strong>Kid-Friendly Explanation Skills:</strong> I can explain complex tech stuff in simple ways</li>
                   <li>• <strong>Problem Solver:</strong> I love solving puzzles and finding creative solutions</li>
-                  <li>• <strong>Always Learning:</strong> Technology changes fast, so I'm always learning new things</li>
+                  <li>• <strong>Always Learning:</strong> Technology changes fast, so I&apos;m always learning new things</li>
                   <li>• <strong>Team Player:</strong> I work well with others and help teach what I know</li>
                   <li>• <strong>Quality Focused:</strong> I build things that last and work really well</li>
                 </ul>
@@ -235,7 +235,7 @@ export default function About() {
               <div className="p-3 bg-gray-800/50 rounded-lg border border-gray-700">
                 <p className="text-gray-400 text-sm">
                   <strong className="text-cyan-400">Skill Levels:</strong> Think of these like video game levels! 
-                  90%+ means I'm like a boss-level expert, 80-89% means I'm really good, and 70-79% means I'm still learning but can do cool stuff!
+                  90%+ means I&apos;m like a boss-level expert, 80-89% means I&apos;m really good, and 70-79% means I&apos;m still learning but can do cool stuff!
                 </p>
               </div>
 
@@ -278,12 +278,12 @@ export default function About() {
                 </h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div className="text-gray-300">
-                    <div className="text-indigo-400 font-semibold">📱 Apps I've Built</div>
+                    <div className="text-indigo-400 font-semibold">📱 Apps I&apos;ve Built</div>
                     Mobile apps, websites, and games that people actually use every day!
                   </div>
                   <div className="text-gray-300">
                     <div className="text-indigo-400 font-semibold">⚡ Speed Boost</div>
-                    I made some websites 300% faster - that's like turning a bicycle into a race car!
+                    I made some websites 300% faster - that&apos;s like turning a bicycle into a race car!
                   </div>
                   <div className="text-gray-300">
                     <div className="text-indigo-400 font-semibold">🛡️ Security Expert</div>
@@ -316,7 +316,7 @@ export default function About() {
                   </div>
                   <div className="text-gray-300">
                     <div className="text-cyan-500 font-semibold">💾 Memory</div>
-                    32GB DDR5 - Faster than a superhero's reflexes!
+                    32GB DDR5 - Faster than a superhero&apos;s reflexes!
                   </div>
                   <div className="text-gray-300">
                     <div className="text-cyan-500 font-semibold">💿 Storage</div>
@@ -325,7 +325,7 @@ export default function About() {
                 </div>
                 <p className="text-gray-400 text-xs mt-3">
                   This powerful setup helps me build, test, and create amazing digital experiences super fast! 
-                  It's like having a race car for coding! 🏎️
+                  It&apos;s like having a race car for coding! 🏎️
                 </p>
               </motion.div>
             </motion.div>
