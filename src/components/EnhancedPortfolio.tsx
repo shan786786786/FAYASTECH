@@ -189,7 +189,7 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0], index: n
               category={project.category}
               title={project.title}
               className="w-full h-full"
-              customStyle={(project as any).customStyle}
+              customStyle={'customStyle' in project ? (project as { customStyle: string }).customStyle : undefined}
             />
 
             {/* Pink Glow Accent at Top - Gaming/Production Cards */}
