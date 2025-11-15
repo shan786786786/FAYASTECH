@@ -105,10 +105,10 @@ export default function Contact() {
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center mb-8 md:mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Touch</span>
+              Let&apos;s <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Talk</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Ready to transform your ideas into reality? Let&apos;s discuss your next project and create something amazing together.
+              Got a project in mind? Need someone to fix your code? Or just want to chat about tech? Hit me up.
             </p>
           </motion.div>
 
@@ -116,11 +116,10 @@ export default function Contact() {
             {/* Contact Info */}
             <motion.div variants={itemVariants} className="space-y-8">
               <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Let&apos;s Connect</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">Let&apos;s Work Together</h3>
                 <p className="text-gray-300 mb-8">
-                  I&apos;m always interested in hearing about new projects and opportunities. 
-                  Whether you&apos;re a company looking to hire, or you&apos;re looking for a consultant, 
-                  I&apos;d love to hear from you.
+                  Always up for interesting projects. Whether you need a full-time dev, 
+                  freelance work, or just some consulting - shoot me a message.
                 </p>
 
                 <div className="space-y-6">

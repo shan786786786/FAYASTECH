@@ -160,7 +160,7 @@ export default function EnhancedHero() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.5 }}
               >
-                Hello, I&apos;m
+                Hi, I&apos;m
               </motion.span>
               <motion.h1 
                 className="text-5xl md:text-7xl font-bold text-white mb-4"
@@ -210,9 +210,9 @@ export default function EnhancedHero() {
               variants={itemVariants}
               className="text-lg text-gray-400 mb-4 max-w-2xl"
             >
-              <strong className="text-cyan-400">Full Stack Developer</strong> means I build complete digital solutions - 
-              both the beautiful parts you see and the powerful systems that make everything work! 
-              Think of me as a digital architect who designs and builds amazing websites, apps, and systems.
+              I've been building stuff on the web for 15+ years. Frontend, backend, databases - 
+              whatever it takes to get your project done right. From simple websites to complex enterprise systems, 
+              I've probably done something similar already.
             </motion.p>
 
             <motion.div 
@@ -220,8 +220,8 @@ export default function EnhancedHero() {
               className="p-4 bg-gradient-to-r from-blue-900/20 to-purple-900/20 border border-blue-500/30 rounded-lg mb-4"
             >
               <p className="text-gray-300 text-sm mb-3">
-                <strong className="text-yellow-400">🚀 What I Do:</strong> I help businesses and people bring their ideas to life using technology. 
-                From simple websites to complex apps, I make sure everything works perfectly and looks amazing!
+                <strong className="text-yellow-400">🚀 What I Do:</strong> Build websites and apps that actually work. 
+                Fix broken code. Set up systems. Make your tech dreams happen. It's what I've been doing for years.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">
                 <div className="flex items-center text-cyan-400">

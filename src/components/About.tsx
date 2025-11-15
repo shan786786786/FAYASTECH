@@ -160,31 +160,31 @@ export default function About() {
               
               {/* Kid-Friendly Introduction */}
               <div className="p-4 bg-gradient-to-r from-green-900/20 to-blue-900/20 border border-green-500/30 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-400 mb-2">What I Do (Explained Simply):</h4>
+                <h4 className="text-lg font-semibold text-green-400 mb-2">Here's what I do:</h4>
                 <p className="text-gray-300 leading-relaxed text-sm">
-                  Think of me as a digital builder! Just like how architects design and build houses, I design and build websites, 
-                  apps, and computer systems. I help businesses solve problems using technology - kind of like a tech superhero! 🦸‍♂️
+                  I build digital stuff - websites, apps, systems. Whatever you need online, I can probably make it happen. 
+                  Been doing this for a while now, so I've seen pretty much everything. 🚀
                 </p>
               </div>
 
               {/* Professional Description */}
               <p className="text-gray-300 leading-relaxed">
-                <strong className="text-cyan-400">Full Stack Developer</strong> means I can build the complete package - both the pretty front part you see 
-                (like the colorful buttons and animations on websites) and the powerful back part that makes everything work 
-                (like the brain of a computer that stores and manages all the information).
+                <strong className="text-cyan-400">Full Stack Developer</strong> - that means I handle both ends. 
+                The frontend (what you see and click), and the backend (where all the magic happens behind the scenes). 
+                Database, server, design - I've got it covered.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                With over <strong className="text-cyan-400">15 years of experience</strong>, I&apos;ve completed <strong className="text-cyan-400">100+ projects</strong> 
-                helping businesses and people create amazing digital experiences. I&apos;m like a tech doctor who can:
-                <br />• <strong>Diagnose</strong> what&apos;s wrong with websites or systems
-                <br />• <strong>Cure</strong> problems by writing special computer code
-                <br />• <strong>Prevent</strong> future issues by building strong, secure systems
+                <strong className="text-cyan-400">15 years in the game</strong>, worked on <strong className="text-cyan-400">100+ projects</strong>. 
+                From small business websites to complex enterprise systems. I've:
+                <br />• Fixed broken code that everyone else gave up on
+                <br />• Built systems from scratch that actually scale
+                <br />• Saved companies money by optimizing their tech stack
               </p>
 
               {/* Technical Expertise in Simple Terms */}
               <div className="space-y-4">
-                <h4 className="text-lg font-semibold text-white">What I&apos;m Really Good At:</h4>
+                <h4 className="text-lg font-semibold text-white">My Tech Stack:</h4>
                 
                 {/* Frontend Technologies */}
                 <Tilt
@@ -199,14 +199,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-purple-900/20 border border-purple-500/30 rounded-lg hover:border-purple-500/50 transition-all shadow-xl">
-                    <h5 className="text-purple-400 font-semibold mb-2">🎨 Frontend (The Pretty Part You See)</h5>
+                    <h5 className="text-purple-400 font-semibold mb-2">🎨 Frontend Development</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>React/Next.js</strong> - Building interactive websites</li>
-                      <li>• <strong>TypeScript</strong> - Writing safer, better code</li>
-                      <li>• <strong>Tailwind CSS</strong> - Making things look beautiful</li>
-                      <li>• <strong>Framer Motion</strong> - Creating smooth animations</li>
-                      <li>• <strong>HTML/CSS</strong> - The foundation of all websites</li>
-                      <li>• <strong>JavaScript</strong> - Making websites interactive</li>
+                      <li>• <strong>React/Next.js</strong> - My go-to framework</li>
+                      <li>• <strong>TypeScript</strong> - Keeps code clean</li>
+                      <li>• <strong>Tailwind CSS</strong> - Fast styling</li>
+                      <li>• <strong>Framer Motion</strong> - Smooth animations</li>
+                      <li>• <strong>HTML/CSS</strong> - The basics, perfected</li>
+                      <li>• <strong>JavaScript</strong> - Been using it forever</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -224,14 +224,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-blue-900/20 border border-blue-500/30 rounded-lg hover:border-blue-500/50 transition-all shadow-xl">
-                    <h5 className="text-blue-400 font-semibold mb-2">⚡ Backend (The Brain Behind Everything)</h5>
+                    <h5 className="text-blue-400 font-semibold mb-2">⚡ Backend Development</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>Node.js</strong> - Server-side programming</li>
-                      <li>• <strong>Python</strong> - Data analysis and automation</li>
-                      <li>• <strong>Databases</strong> - Storing and managing information</li>
-                      <li>• <strong>APIs</strong> - Connecting different systems</li>
-                      <li>• <strong>Cloud Services</strong> - Making apps available worldwide</li>
-                      <li>• <strong>Security</strong> - Keeping everything safe</li>
+                      <li>• <strong>Node.js</strong> - Server stuff</li>
+                      <li>• <strong>Python</strong> - Scripts & automation</li>
+                      <li>• <strong>Databases</strong> - MongoDB, PostgreSQL, MySQL</li>
+                      <li>• <strong>APIs</strong> - REST, GraphQL</li>
+                      <li>• <strong>Cloud</strong> - AWS, Vercel, Firebase</li>
+                      <li>• <strong>Security</strong> - Auth, encryption, etc.</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -249,14 +249,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-cyan-900/20 border border-cyan-500/30 rounded-lg hover:border-cyan-500/50 transition-all shadow-xl">
-                    <h5 className="text-cyan-400 font-semibold mb-2">📊 Data Analysis (Making Sense of Numbers)</h5>
+                    <h5 className="text-cyan-400 font-semibold mb-2">📊 Data Analysis</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>Excel & Power BI</strong> - Creating charts and reports</li>
-                      <li>• <strong>Python/Pandas</strong> - Analyzing large datasets</li>
-                      <li>• <strong>Data Visualization</strong> - Making data easy to understand</li>
-                      <li>• <strong>Statistics</strong> - Finding patterns and trends</li>
-                      <li>• <strong>Reporting</strong> - Presenting insights clearly</li>
-                      <li>• <strong>Predictive Analysis</strong> - Forecasting future trends</li>
+                      <li>• <strong>Excel & Power BI</strong> - Reports & dashboards</li>
+                      <li>• <strong>Python/Pandas</strong> - Data crunching</li>
+                      <li>• <strong>Data Viz</strong> - Charts that make sense</li>
+                      <li>• <strong>Statistics</strong> - Finding patterns</li>
+                      <li>• <strong>Reporting</strong> - Clear insights</li>
+                      <li>• <strong>Predictions</strong> - Future trends</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -274,14 +274,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-orange-900/20 border border-orange-500/30 rounded-lg hover:border-orange-500/50 transition-all shadow-xl">
-                    <h5 className="text-orange-400 font-semibold mb-2">🖥️ Hardware & Networking (The Physical Tech)</h5>
+                    <h5 className="text-orange-400 font-semibold mb-2">🖥️ Hardware & Networking</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>PC Building</strong> - Assembling custom computers</li>
-                      <li>• <strong>Network Setup</strong> - Connecting devices together</li>
-                      <li>• <strong>Troubleshooting</strong> - Fixing hardware problems</li>
-                      <li>• <strong>Server Configuration</strong> - Setting up powerful systems</li>
-                      <li>• <strong>WiFi Optimization</strong> - Making internet faster</li>
-                      <li>• <strong>Cable Management</strong> - Organizing connections neatly</li>
+                      <li>• <strong>PC Building</strong> - Custom rigs</li>
+                      <li>• <strong>Network Setup</strong> - Routers, switches, etc.</li>
+                      <li>• <strong>Troubleshooting</strong> - Fix broken stuff</li>
+                      <li>• <strong>Servers</strong> - Enterprise systems</li>
+                      <li>• <strong>WiFi</strong> - Fast, stable connections</li>
+                      <li>• <strong>Cables</strong> - Clean setups</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -299,14 +299,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-pink-900/20 border border-pink-500/30 rounded-lg hover:border-pink-500/50 transition-all shadow-xl">
-                    <h5 className="text-pink-400 font-semibold mb-2">🎬 Video Editing & 3D Animation (Creating Magic)</h5>
+                    <h5 className="text-pink-400 font-semibold mb-2">🎬 Video & 3D Work</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>Adobe Premiere Pro</strong> - Professional video editing</li>
-                      <li>• <strong>After Effects</strong> - Motion graphics and effects</li>
-                      <li>• <strong>Blender/Maya</strong> - 3D modeling and animation</li>
-                      <li>• <strong>Color Grading</strong> - Making videos look cinematic</li>
-                      <li>• <strong>Sound Design</strong> - Adding audio effects</li>
-                      <li>• <strong>Visual Effects</strong> - Creating movie-like scenes</li>
+                      <li>• <strong>Premiere Pro</strong> - Video editing</li>
+                      <li>• <strong>After Effects</strong> - Motion graphics</li>
+                      <li>• <strong>Blender/Maya</strong> - 3D animation</li>
+                      <li>• <strong>Color Grading</strong> - Look & feel</li>
+                      <li>• <strong>Sound Design</strong> - Audio polish</li>
+                      <li>• <strong>VFX</strong> - Special effects</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -324,14 +324,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-red-900/20 border border-red-500/30 rounded-lg hover:border-red-500/50 transition-all shadow-xl">
-                    <h5 className="text-red-400 font-semibold mb-2">� CCTV & Security Systems (Keeping Safe)</h5>
+                    <h5 className="text-red-400 font-semibold mb-2">📹 Security Systems</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>Camera Installation</strong> - Setting up security cameras</li>
-                      <li>• <strong>DVR/NVR Setup</strong> - Recording and monitoring systems</li>
-                      <li>• <strong>Network Security</strong> - Protecting surveillance feeds</li>
-                      <li>• <strong>Remote Access</strong> - View cameras from anywhere</li>
-                      <li>• <strong>Motion Detection</strong> - Smart alert systems</li>
-                      <li>• <strong>Maintenance</strong> - Keeping systems running 24/7</li>
+                      <li>• <strong>CCTV Install</strong> - Camera setup</li>
+                      <li>• <strong>DVR/NVR</strong> - Recording systems</li>
+                      <li>• <strong>Security</strong> - Protected feeds</li>
+                      <li>• <strong>Remote View</strong> - Check from anywhere</li>
+                      <li>• <strong>Alerts</strong> - Motion detection</li>
+                      <li>• <strong>Support</strong> - 24/7 monitoring</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -349,14 +349,14 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="p-4 bg-green-900/20 border border-green-500/30 rounded-lg hover:border-green-500/50 transition-all shadow-xl">
-                    <h5 className="text-green-400 font-semibold mb-2">🛠️ Tools & Special Skills</h5>
+                    <h5 className="text-green-400 font-semibold mb-2">🛠️ Dev Tools</h5>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-300 text-sm">
-                      <li>• <strong>Git/GitHub</strong> - Saving and sharing code safely</li>
-                      <li>• <strong>Docker</strong> - Packaging apps for easy deployment</li>
-                      <li>• <strong>Testing</strong> - Making sure everything works perfectly</li>
-                      <li>• <strong>Performance Optimization</strong> - Making things super fast</li>
-                      <li>• <strong>Video Editing</strong> - Creating professional content</li>
-                      <li>• <strong>Hardware & Networking</strong> - Understanding how computers work</li>
+                      <li>• <strong>Git/GitHub</strong> - Version control</li>
+                      <li>• <strong>Docker</strong> - Containerization</li>
+                      <li>• <strong>Testing</strong> - QA & debugging</li>
+                      <li>• <strong>Optimization</strong> - Speed & performance</li>
+                      <li>• <strong>Video Editing</strong> - Content creation</li>
+                      <li>• <strong>Hardware</strong> - PC & network setup</li>
                     </ul>
                   </div>
                 </Tilt>
@@ -376,11 +376,11 @@ export default function About() {
                   glareBorderRadius="12px"
                 >
                   <div className="col-span-full p-4 bg-yellow-900/20 border border-yellow-500/30 rounded-lg hover:border-yellow-500/50 transition-all shadow-xl">
-                    <h5 className="text-yellow-400 font-semibold mb-2">✨ What Makes Me Special</h5>
+                    <h5 className="text-yellow-400 font-semibold mb-2">✨ Why Work With Me</h5>
                     <p className="text-gray-300 text-sm">
-                      I don&apos;t just write code - I create complete solutions! From designing beautiful websites 
-                      to analyzing data, from fixing computers to creating stunning videos and 3D animations, 
-                      I bring multiple skills together to build amazing things. It&apos;s like being a digital Swiss Army knife! 🎯
+                      I don't just code - I solve problems. Need a website? Done. System broken? I'll fix it. 
+                      Data needs analyzing? Got it. Video editing, 3D animation, hardware setup - whatever you throw at me, 
+                      I've probably done it before. 15 years in this game teaches you a thing or two. 🎯
                     </p>
                   </div>
                 </Tilt>
