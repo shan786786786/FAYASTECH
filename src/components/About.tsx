@@ -160,10 +160,10 @@ export default function About() {
               
               {/* Kid-Friendly Introduction */}
               <div className="p-4 bg-gradient-to-r from-green-900/20 to-blue-900/20 border border-green-500/30 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-400 mb-2">Here's what I do:</h4>
+                <h4 className="text-lg font-semibold text-green-400 mb-2">Here&apos;s what I do:</h4>
                 <p className="text-gray-300 leading-relaxed text-sm">
                   I build digital stuff - websites, apps, systems. Whatever you need online, I can probably make it happen. 
-                  Been doing this for a while now, so I've seen pretty much everything. 🚀
+                  Been doing this for a while now, so I&apos;ve seen pretty much everything. 🚀
                 </p>
               </div>
 
@@ -171,12 +171,12 @@ export default function About() {
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-cyan-400">Full Stack Developer</strong> - that means I handle both ends. 
                 The frontend (what you see and click), and the backend (where all the magic happens behind the scenes). 
-                Database, server, design - I've got it covered.
+                Database, server, design - I&apos;ve got it covered.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
                 <strong className="text-cyan-400">15 years in the game</strong>, worked on <strong className="text-cyan-400">100+ projects</strong>. 
-                From small business websites to complex enterprise systems. I've:
+                From small business websites to complex enterprise systems. I&apos;ve:
                 <br />• Fixed broken code that everyone else gave up on
                 <br />• Built systems from scratch that actually scale
                 <br />• Saved companies money by optimizing their tech stack
@@ -378,9 +378,9 @@ export default function About() {
                   <div className="col-span-full p-4 bg-yellow-900/20 border border-yellow-500/30 rounded-lg hover:border-yellow-500/50 transition-all shadow-xl">
                     <h5 className="text-yellow-400 font-semibold mb-2">✨ Why Work With Me</h5>
                     <p className="text-gray-300 text-sm">
-                      I don't just code - I solve problems. Need a website? Done. System broken? I'll fix it. 
+                      I don&apos;t just code - I solve problems. Need a website? Done. System broken? I&apos;ll fix it. 
                       Data needs analyzing? Got it. Video editing, 3D animation, hardware setup - whatever you throw at me, 
-                      I've probably done it before. 15 years in this game teaches you a thing or two. 🎯
+                      I&apos;ve probably done it before. 15 years in this game teaches you a thing or two. 🎯
                     </p>
                   </div>
                 </Tilt>

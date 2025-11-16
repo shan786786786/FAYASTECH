@@ -227,9 +227,9 @@ export default function EnhancedHero() {
               variants={itemVariants}
               className="text-lg text-gray-400 mb-4 max-w-2xl"
             >
-              I've been building stuff on the web for 15+ years. Frontend, backend, databases - 
+              I&apos;ve been building stuff on the web for 15+ years. Frontend, backend, databases - 
               whatever it takes to get your project done right. From simple websites to complex enterprise systems, 
-              I've probably done something similar already.
+              I&apos;ve probably done something similar already.
             </motion.p>
 
             <motion.div 
@@ -238,7 +238,7 @@ export default function EnhancedHero() {
             >
               <p className="text-gray-300 text-sm mb-3">
                 <strong className="text-yellow-400">🚀 What I Do:</strong> Build websites and apps that actually work. 
-                Fix broken code. Set up systems. Make your tech dreams happen. It's what I've been doing for years.
+                Fix broken code. Set up systems. Make your tech dreams happen. It&apos;s what I&apos;ve been doing for years.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs">
                 <div className="flex items-center text-cyan-400">
