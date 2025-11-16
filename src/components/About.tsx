@@ -393,6 +393,20 @@ export default function About() {
               variants={itemVariants} 
               className="space-y-6"
             >
+              {/* PNG Image Above Heading */}
+              <motion.div 
+                className="flex justify-center mb-6"
+                initial={{ opacity: 0, y: -30 }}
+                animate={skillsInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -30 }}
+                transition={{ duration: 0.8, type: "spring" }}
+              >
+                <img 
+                  src="/DQ.png" 
+                  alt="Technical Superpowers Illustration" 
+                  className="w-96 h-auto object-contain" /* Increased width from w-64 to w-96 */
+                />
+              </motion.div>
+
               <h3 className="text-2xl font-bold text-white mb-6">My Technical Superpowers 🚀</h3>
               
               {/* Skill Level Explanation */}

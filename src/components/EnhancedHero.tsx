@@ -2,10 +2,9 @@
 
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Github, Linkedin, Twitter, Download, Mail, ChevronDown, Code, Cpu, Zap, Sparkles, Instagram, Youtube } from 'lucide-react'
+import { Github, Linkedin, Twitter, Download, Mail, ChevronDown, Code, Cpu, Zap, Sparkles, Instagram, Youtube, Monitor } from 'lucide-react'
 import { Button } from './ui/button'
 import Tilt from 'react-parallax-tilt'
-
 const socialLinks = [
   { icon: Github, label: 'GitHub', url: 'https://github.com/fayastech' },
   { icon: Linkedin, label: 'LinkedIn', url: 'https://linkedin.com/in/fayastech' },
@@ -58,6 +57,8 @@ const FloatingElement = ({ children, delay = 0 }: { children: React.ReactNode, d
     {children}
   </motion.div>
 )
+
+
 
 export default function EnhancedHero() {
   const [ref, inView] = useInView({
@@ -153,57 +154,73 @@ export default function EnhancedHero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content - Full width on mobile, half width on desktop */}
           <div className="text-center lg:text-left lg:col-span-1">
-            <motion.div variants={textVariants} className="mb-6">
-              <motion.span 
-                className="inline-block text-cyan-500 font-semibold text-lg mb-2"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.5 }}
-              >
-                Hi, I&apos;m
-              </motion.span>
-              <motion.h1 
-                className="text-5xl md:text-7xl font-bold text-white mb-4"
-                variants={textVariants}
-              >
-                Fayas
+            <motion.div variants={textVariants} className="mb-6 flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start gap-4">
+              <div>
                 <motion.span 
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500"
-                  animate={{
-                    backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    ease: "linear"
-                  }}
-                  style={{
-                    backgroundSize: '200% 200%'
-                  }}
+                  className="inline-block text-cyan-500 font-semibold text-lg mb-2"
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.5 }}
                 >
-                  Tech
+                  Hi, I&apos;m
                 </motion.span>
-              </motion.h1>
-              <motion.div 
-                className="text-2xl md:text-3xl text-gray-300 mb-6"
-                variants={textVariants}
+              </div>
+              
+              {/* Computer Icon */}
+              <motion.div
+                className="w-12 h-12"
+                animate={{ 
+                  y: [0, -8, 0],
+                  rotate: [0, 2, -2, 0]
+                }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                <motion.span
-                  animate={{ opacity: [1, 0.5, 1] }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                  className="inline-block"
-                >
-                  Full Stack Developer
-                </motion.span>
-                {' • '}
-                <motion.span
-                  animate={{ opacity: [0.5, 1, 0.5] }}
-                  transition={{ duration: 2, repeat: Infinity, delay: 1 }}
-                  className="inline-block text-cyan-500"
-                >
-                  15+ Years Experience
-                </motion.span>
+                <Monitor className="w-12 h-12 text-cyan-500" strokeWidth={1.5} />
               </motion.div>
+            </motion.div>
+
+            <motion.h1 
+              className="text-5xl md:text-7xl font-bold text-white mb-4"
+              variants={textVariants}
+            >
+              Fayas
+              <motion.span 
+                className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500"
+                animate={{
+                  backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "linear"
+                }}
+                style={{
+                  backgroundSize: '200% 200%'
+                }}
+              >
+                Tech
+              </motion.span>
+            </motion.h1>
+
+            <motion.div 
+              className="text-2xl md:text-3xl text-gray-300 mb-6"
+              variants={textVariants}
+            >
+              <motion.span
+                animate={{ opacity: [1, 0.5, 1] }}
+                transition={{ duration: 2, repeat: Infinity }}
+                className="inline-block"
+              >
+                Full Stack Developer
+              </motion.span>
+              {' • '}
+              <motion.span
+                animate={{ opacity: [0.5, 1, 0.5] }}
+                transition={{ duration: 2, repeat: Infinity, delay: 1 }}
+                className="inline-block text-cyan-500"
+              >
+                15+ Years Experience
+              </motion.span>
             </motion.div>
 
             <motion.p 
@@ -389,6 +406,8 @@ export default function EnhancedHero() {
             </Tilt>
           </motion.div>
         </div>
+
+
 
         {/* Scroll Indicator */}
         <motion.div 
