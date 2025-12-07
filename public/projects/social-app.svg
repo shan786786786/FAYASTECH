@@ -1,0 +1,106 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="socialBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="socialAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="storyRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone Frame -->
+  <rect width="400" height="800" rx="40" fill="#1a1a1a"/>
+  <rect x="10" y="10" width="380" height="780" rx="35" fill="url(#socialBg)"/>
+  
+  <!-- Status Bar -->
+  <text x="30" y="45" font-family="Arial" font-size="14" fill="white">9:41</text>
+  <text x="340" y="45" font-family="Arial" font-size="14" fill="white">100%</text>
+  
+  <!-- Header -->
+  <text x="30" y="90" font-family="Arial" font-size="24" fill="white" font-weight="bold">Socialify</text>
+  <text x="320" y="90" font-family="Arial" font-size="20" fill="white">❤️</text>
+  <text x="360" y="90" font-family="Arial" font-size="20" fill="white">✉️</text>
+  
+  <!-- Stories Row -->
+  <g transform="translate(20, 110)">
+    <!-- Your Story -->
+    <g transform="translate(0, 0)">
+      <circle cx="35" cy="35" r="32" fill="#2a2a2a"/>
+      <text x="35" y="42" font-family="Arial" font-size="24" fill="#6b7280" text-anchor="middle">+</text>
+      <text x="35" y="80" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">Your Story</text>
+    </g>
+    <!-- Story 1 -->
+    <g transform="translate(75, 0)">
+      <circle cx="35" cy="35" r="34" fill="none" stroke="url(#storyRing)" stroke-width="3"/>
+      <circle cx="35" cy="35" r="30" fill="#3a3a3a"/>
+      <text x="35" y="42" font-family="Arial" font-size="18" fill="white" text-anchor="middle">😊</text>
+      <text x="35" y="80" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">sarah_m</text>
+    </g>
+    <!-- Story 2 -->
+    <g transform="translate(150, 0)">
+      <circle cx="35" cy="35" r="34" fill="none" stroke="url(#storyRing)" stroke-width="3"/>
+      <circle cx="35" cy="35" r="30" fill="#3a3a3a"/>
+      <text x="35" y="42" font-family="Arial" font-size="18" fill="white" text-anchor="middle">🎸</text>
+      <text x="35" y="80" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">mike_j</text>
+    </g>
+    <!-- Story 3 -->
+    <g transform="translate(225, 0)">
+      <circle cx="35" cy="35" r="34" fill="none" stroke="url(#storyRing)" stroke-width="3"/>
+      <circle cx="35" cy="35" r="30" fill="#3a3a3a"/>
+      <text x="35" y="42" font-family="Arial" font-size="18" fill="white" text-anchor="middle">🎨</text>
+      <text x="35" y="80" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">art_lisa</text>
+    </g>
+    <!-- Story 4 -->
+    <g transform="translate(300, 0)">
+      <circle cx="35" cy="35" r="34" fill="none" stroke="#4b5563" stroke-width="3"/>
+      <circle cx="35" cy="35" r="30" fill="#3a3a3a"/>
+      <text x="35" y="42" font-family="Arial" font-size="18" fill="white" text-anchor="middle">🏀</text>
+      <text x="35" y="80" font-family="Arial" font-size="10" fill="#9ca3af" text-anchor="middle">alex_k</text>
+    </g>
+  </g>
+  
+  <!-- Feed Post -->
+  <g transform="translate(20, 215)">
+    <!-- Post Header -->
+    <circle cx="25" cy="25" r="20" fill="#3a3a3a"/>
+    <text x="25" y="32" font-family="Arial" font-size="16" fill="white" text-anchor="middle">📷</text>
+    <text x="55" y="22" font-family="Arial" font-size="14" fill="white" font-weight="bold">travel_jane</text>
+    <text x="55" y="38" font-family="Arial" font-size="11" fill="#6b7280">Bali, Indonesia</text>
+    <text x="340" y="30" font-family="Arial" font-size="20" fill="white">⋯</text>
+    
+    <!-- Post Image -->
+    <rect x="0" y="55" width="360" height="280" rx="4" fill="#1e293b"/>
+    <text x="180" y="200" font-family="Arial" font-size="48" fill="#4b5563" text-anchor="middle">🏝️</text>
+    <text x="180" y="250" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">Beautiful sunset in Bali</text>
+    
+    <!-- Post Actions -->
+    <text x="10" y="360" font-family="Arial" font-size="24" fill="white">❤️</text>
+    <text x="50" y="360" font-family="Arial" font-size="24" fill="white">💬</text>
+    <text x="90" y="360" font-family="Arial" font-size="24" fill="white">📤</text>
+    <text x="330" y="360" font-family="Arial" font-size="24" fill="white">🔖</text>
+    
+    <!-- Likes -->
+    <text x="10" y="395" font-family="Arial" font-size="13" fill="white" font-weight="bold">2,847 likes</text>
+    
+    <!-- Caption -->
+    <text x="10" y="420" font-family="Arial" font-size="13" fill="white"><tspan font-weight="bold">travel_jane</tspan> Paradise found! 🌅✨</text>
+    <text x="10" y="440" font-family="Arial" font-size="12" fill="#6b7280">View all 156 comments</text>
+    <text x="10" y="460" font-family="Arial" font-size="11" fill="#4b5563">2 HOURS AGO</text>
+  </g>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="745" width="400" height="65" fill="#0a0a0a"/>
+  <text x="50" y="780" font-family="Arial" font-size="24" fill="white" text-anchor="middle">🏠</text>
+  <text x="120" y="780" font-family="Arial" font-size="24" fill="#6b7280" text-anchor="middle">🔍</text>
+  <rect x="170" y="760" width="60" height="35" rx="8" fill="url(#socialAccent)"/>
+  <text x="200" y="783" font-family="Arial" font-size="20" fill="white" text-anchor="middle">+</text>
+  <text x="280" y="780" font-family="Arial" font-size="24" fill="#6b7280" text-anchor="middle">🎬</text>
+  <text x="350" y="780" font-family="Arial" font-size="24" fill="#6b7280" text-anchor="middle">👤</text>
+</svg>

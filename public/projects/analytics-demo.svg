@@ -1,0 +1,109 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1419;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1f2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aiAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#aiBg)"/>
+  
+  <!-- Browser Frame -->
+  <rect x="40" y="30" width="720" height="440" rx="12" fill="#111318" stroke="#2d3748" stroke-width="1"/>
+  
+  <!-- Browser Header -->
+  <rect x="40" y="30" width="720" height="40" rx="12" fill="#1a1f2e"/>
+  <circle cx="70" cy="50" r="6" fill="#ff5f57"/>
+  <circle cx="92" cy="50" r="6" fill="#febc2e"/>
+  <circle cx="114" cy="50" r="6" fill="#28c840"/>
+  <rect x="200" y="40" width="400" height="20" rx="4" fill="#111318"/>
+  <text x="400" y="54" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">analytics.fayastech.com</text>
+  
+  <!-- Sidebar -->
+  <rect x="40" y="70" width="60" height="400" fill="#0d1117"/>
+  <rect x="50" y="90" width="40" height="40" rx="8" fill="url(#aiAccent)"/>
+  <text x="70" y="115" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📊</text>
+  <rect x="50" y="145" width="40" height="40" rx="8" fill="#1a1f2e"/>
+  <text x="70" y="170" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">🤖</text>
+  <rect x="50" y="200" width="40" height="40" rx="8" fill="#1a1f2e"/>
+  <text x="70" y="225" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">📈</text>
+  <rect x="50" y="255" width="40" height="40" rx="8" fill="#1a1f2e"/>
+  <text x="70" y="280" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">⚙️</text>
+  
+  <!-- Main Content -->
+  <rect x="115" y="85" width="630" height="370" rx="8" fill="#0d1117"/>
+  
+  <!-- Header -->
+  <text x="135" y="115" font-family="Arial" font-size="20" fill="white" font-weight="bold">AI Analytics Dashboard</text>
+  <rect x="600" y="95" width="130" height="30" rx="6" fill="#1a1f2e"/>
+  <text x="665" y="115" font-family="Arial" font-size="11" fill="#6b7280" text-anchor="middle">Last 7 days ▼</text>
+  
+  <!-- AI Insights Card -->
+  <rect x="135" y="135" width="280" height="130" rx="10" fill="#1a1f2e" stroke="#10b981" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="155" y="165" font-family="Arial" font-size="12" fill="#10b981" font-weight="bold">🤖 AI Insight</text>
+  <text x="155" y="190" font-family="Arial" font-size="11" fill="white">Revenue predicted to increase</text>
+  <text x="155" y="210" font-family="Arial" font-size="11" fill="white">by 23% next quarter based on</text>
+  <text x="155" y="230" font-family="Arial" font-size="11" fill="white">current trends.</text>
+  <rect x="155" y="245" width="80" height="12" rx="2" fill="#10b981" opacity="0.2"/>
+  <rect x="155" y="245" width="65" height="12" rx="2" fill="#10b981"/>
+  <text x="250" y="254" font-family="Arial" font-size="9" fill="#6b7280">87% confidence</text>
+  
+  <!-- Stats Cards -->
+  <rect x="430" y="135" width="145" height="60" rx="8" fill="#1a1f2e"/>
+  <text x="450" y="160" font-family="Arial" font-size="10" fill="#6b7280">Total Revenue</text>
+  <text x="450" y="182" font-family="Arial" font-size="20" fill="white" font-weight="bold">$284.5K</text>
+  <text x="530" y="182" font-family="Arial" font-size="10" fill="#10b981">↑ 12%</text>
+  
+  <rect x="590" y="135" width="145" height="60" rx="8" fill="#1a1f2e"/>
+  <text x="610" y="160" font-family="Arial" font-size="10" fill="#6b7280">Active Users</text>
+  <text x="610" y="182" font-family="Arial" font-size="20" fill="white" font-weight="bold">45.2K</text>
+  <text x="685" y="182" font-family="Arial" font-size="10" fill="#10b981">↑ 8%</text>
+  
+  <rect x="430" y="205" width="145" height="60" rx="8" fill="#1a1f2e"/>
+  <text x="450" y="230" font-family="Arial" font-size="10" fill="#6b7280">Conversion</text>
+  <text x="450" y="252" font-family="Arial" font-size="20" fill="white" font-weight="bold">3.24%</text>
+  <text x="520" y="252" font-family="Arial" font-size="10" fill="#ef4444">↓ 2%</text>
+  
+  <rect x="590" y="205" width="145" height="60" rx="8" fill="#1a1f2e"/>
+  <text x="610" y="230" font-family="Arial" font-size="10" fill="#6b7280">Avg. Session</text>
+  <text x="610" y="252" font-family="Arial" font-size="20" fill="white" font-weight="bold">4m 32s</text>
+  <text x="700" y="252" font-family="Arial" font-size="10" fill="#10b981">↑ 5%</text>
+  
+  <!-- Main Chart -->
+  <rect x="135" y="280" width="595" height="160" rx="10" fill="#1a1f2e"/>
+  <text x="155" y="310" font-family="Arial" font-size="12" fill="white" font-weight="bold">Revenue Trend</text>
+  <text x="650" y="310" font-family="Arial" font-size="10" fill="#10b981">● Actual</text>
+  <text x="650" y="325" font-family="Arial" font-size="10" fill="#6b7280">● Predicted</text>
+  
+  <!-- Line Chart Visualization -->
+  <path d="M 175 400 L 225 380 L 275 390 L 325 360 L 375 370 L 425 340 L 475 350 L 525 320 L 575 330 L 625 300 L 675 310" stroke="#10b981" stroke-width="2" fill="none"/>
+  <path d="M 575 330 L 625 300 L 675 280" stroke="#10b981" stroke-width="2" stroke-dasharray="5,5" fill="none" opacity="0.5"/>
+  
+  <!-- Data Points -->
+  <circle cx="175" cy="400" r="4" fill="#10b981"/>
+  <circle cx="225" cy="380" r="4" fill="#10b981"/>
+  <circle cx="275" cy="390" r="4" fill="#10b981"/>
+  <circle cx="325" cy="360" r="4" fill="#10b981"/>
+  <circle cx="375" cy="370" r="4" fill="#10b981"/>
+  <circle cx="425" cy="340" r="4" fill="#10b981"/>
+  <circle cx="475" cy="350" r="4" fill="#10b981"/>
+  <circle cx="525" cy="320" r="4" fill="#10b981"/>
+  <circle cx="575" cy="330" r="4" fill="#10b981"/>
+  
+  <!-- Predicted Points -->
+  <circle cx="625" cy="300" r="4" fill="#10b981" opacity="0.5"/>
+  <circle cx="675" cy="280" r="4" fill="#10b981" opacity="0.5"/>
+  
+  <!-- X-Axis Labels -->
+  <text x="175" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">Jan</text>
+  <text x="275" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">Mar</text>
+  <text x="375" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">May</text>
+  <text x="475" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">Jul</text>
+  <text x="575" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">Sep</text>
+  <text x="675" y="425" font-family="Arial" font-size="9" fill="#6b7280" text-anchor="middle">Nov</text>
+</svg>

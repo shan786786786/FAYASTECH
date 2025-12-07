@@ -1,0 +1,20 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="192" height="192" rx="42" fill="#000000"/>
+  
+  <!-- Glow -->
+  <rect x="10" y="10" width="172" height="172" rx="37" fill="url(#iconGrad192)" opacity="0.2"/>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="182" height="182" rx="40" stroke="url(#iconGrad192)" stroke-width="2" fill="none"/>
+  
+  <!-- FT Text -->
+  <text x="96" y="122" font-family="Arial, sans-serif" font-size="76" font-weight="bold" fill="url(#iconGrad192)" text-anchor="middle">FT</text>
+</svg>

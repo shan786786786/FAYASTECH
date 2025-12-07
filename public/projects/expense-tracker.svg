@@ -1,0 +1,88 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="expBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="expAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone Frame -->
+  <rect width="400" height="800" rx="40" fill="#1a1a1a"/>
+  <rect x="10" y="10" width="380" height="780" rx="35" fill="url(#expBg)"/>
+  
+  <!-- Status Bar -->
+  <text x="30" y="45" font-family="Arial" font-size="14" fill="white">9:41</text>
+  <text x="340" y="45" font-family="Arial" font-size="14" fill="white">100%</text>
+  
+  <!-- Header -->
+  <text x="200" y="95" font-family="Arial" font-size="24" fill="white" font-weight="bold" text-anchor="middle">Expense Tracker</text>
+  
+  <!-- Balance Card -->
+  <rect x="25" y="120" width="350" height="160" rx="20" fill="url(#expAccent)"/>
+  <text x="50" y="160" font-family="Arial" font-size="14" fill="white" opacity="0.8">Total Balance</text>
+  <text x="50" y="210" font-family="Arial" font-size="42" fill="white" font-weight="bold">$24,562</text>
+  <text x="50" y="240" font-family="Arial" font-size="14" fill="white" opacity="0.8">+12.5% from last month</text>
+  
+  <!-- Income/Expense Row -->
+  <rect x="50" y="255" width="130" height="15" rx="3" fill="white" opacity="0.2"/>
+  <rect x="50" y="255" width="85" height="15" rx="3" fill="white"/>
+  <rect x="220" y="255" width="130" height="15" rx="3" fill="white" opacity="0.2"/>
+  <rect x="220" y="255" width="60" height="15" rx="3" fill="#ef4444"/>
+  
+  <!-- Quick Actions -->
+  <text x="25" y="320" font-family="Arial" font-size="16" fill="white" font-weight="bold">Quick Actions</text>
+  
+  <rect x="25" y="340" width="80" height="80" rx="16" fill="#1e293b"/>
+  <text x="65" y="380" font-family="Arial" font-size="24" fill="white" text-anchor="middle">➕</text>
+  <text x="65" y="405" font-family="Arial" font-size="10" fill="#94a3b8" text-anchor="middle">Add</text>
+  
+  <rect x="115" y="340" width="80" height="80" rx="16" fill="#1e293b"/>
+  <text x="155" y="380" font-family="Arial" font-size="24" fill="white" text-anchor="middle">📊</text>
+  <text x="155" y="405" font-family="Arial" font-size="10" fill="#94a3b8" text-anchor="middle">Stats</text>
+  
+  <rect x="205" y="340" width="80" height="80" rx="16" fill="#1e293b"/>
+  <text x="245" y="380" font-family="Arial" font-size="24" fill="white" text-anchor="middle">💰</text>
+  <text x="245" y="405" font-family="Arial" font-size="10" fill="#94a3b8" text-anchor="middle">Budget</text>
+  
+  <rect x="295" y="340" width="80" height="80" rx="16" fill="#1e293b"/>
+  <text x="335" y="380" font-family="Arial" font-size="24" fill="white" text-anchor="middle">📈</text>
+  <text x="335" y="405" font-family="Arial" font-size="10" fill="#94a3b8" text-anchor="middle">Goals</text>
+  
+  <!-- Recent Transactions -->
+  <text x="25" y="470" font-family="Arial" font-size="16" fill="white" font-weight="bold">Recent Transactions</text>
+  
+  <!-- Transaction 1 -->
+  <rect x="25" y="490" width="350" height="70" rx="12" fill="#1e293b"/>
+  <circle cx="65" cy="525" r="20" fill="#ef4444" opacity="0.2"/>
+  <text x="65" y="530" font-family="Arial" font-size="16" fill="#ef4444" text-anchor="middle">🛒</text>
+  <text x="100" y="515" font-family="Arial" font-size="14" fill="white">Shopping</text>
+  <text x="100" y="535" font-family="Arial" font-size="12" fill="#64748b">Today, 2:30 PM</text>
+  <text x="350" y="525" font-family="Arial" font-size="16" fill="#ef4444" text-anchor="end" font-weight="bold">-$156.00</text>
+  
+  <!-- Transaction 2 -->
+  <rect x="25" y="570" width="350" height="70" rx="12" fill="#1e293b"/>
+  <circle cx="65" cy="605" r="20" fill="#10b981" opacity="0.2"/>
+  <text x="65" y="610" font-family="Arial" font-size="16" fill="#10b981" text-anchor="middle">💵</text>
+  <text x="100" y="595" font-family="Arial" font-size="14" fill="white">Salary</text>
+  <text x="100" y="615" font-family="Arial" font-size="12" fill="#64748b">Dec 1, 9:00 AM</text>
+  <text x="350" y="605" font-family="Arial" font-size="16" fill="#10b981" text-anchor="end" font-weight="bold">+$5,200.00</text>
+  
+  <!-- Transaction 3 -->
+  <rect x="25" y="650" width="350" height="70" rx="12" fill="#1e293b"/>
+  <circle cx="65" cy="685" r="20" fill="#f59e0b" opacity="0.2"/>
+  <text x="65" y="690" font-family="Arial" font-size="16" fill="#f59e0b" text-anchor="middle">🍔</text>
+  <text x="100" y="675" font-family="Arial" font-size="14" fill="white">Food & Dining</text>
+  <text x="100" y="695" font-family="Arial" font-size="12" fill="#64748b">Nov 30, 7:45 PM</text>
+  <text x="350" y="685" font-family="Arial" font-size="16" fill="#ef4444" text-anchor="end" font-weight="bold">-$45.50</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="25" y="735" width="350" height="50" rx="25" fill="#1e293b"/>
+  <text x="75" y="765" font-family="Arial" font-size="20" fill="#10b981" text-anchor="middle">🏠</text>
+  <text x="155" y="765" font-family="Arial" font-size="20" fill="#64748b" text-anchor="middle">📊</text>
+  <text x="245" y="765" font-family="Arial" font-size="20" fill="#64748b" text-anchor="middle">💳</text>
+  <text x="325" y="765" font-family="Arial" font-size="20" fill="#64748b" text-anchor="middle">⚙️</text>
+</svg>

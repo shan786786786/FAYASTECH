@@ -1,0 +1,60 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111111;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="500" y1="0" x2="500" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="700" y1="0" x2="700" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="1100" y1="0" x2="1100" y2="630" stroke="#06b6d4" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="630" stroke="#06b6d4" stroke-width="1"/>
+  </g>
+  
+  <!-- Glow effects -->
+  <ellipse cx="200" cy="200" rx="300" ry="200" fill="url(#glowGradient)" opacity="0.5"/>
+  <ellipse cx="1000" cy="500" rx="250" ry="180" fill="#8b5cf6" opacity="0.1"/>
+  
+  <!-- Main text -->
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="white" text-anchor="middle">Fayas</text>
+  <text x="600" y="370" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="url(#textGradient)" text-anchor="middle">Tech</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="450" font-family="Arial, sans-serif" font-size="32" fill="#9ca3af" text-anchor="middle">Full Stack Developer • Data Analyst • Tech Expert</text>
+  
+  <!-- Stats -->
+  <text x="300" y="550" font-family="Arial, sans-serif" font-size="24" fill="#06b6d4" text-anchor="middle">100+ Projects</text>
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="24" fill="#3b82f6" text-anchor="middle">15+ Years</text>
+  <text x="900" y="550" font-family="Arial, sans-serif" font-size="24" fill="#8b5cf6" text-anchor="middle">50+ Clients</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="5" fill="#06b6d4"/>
+  <circle cx="1100" cy="100" r="5" fill="#8b5cf6"/>
+  <circle cx="100" cy="530" r="5" fill="#3b82f6"/>
+  <circle cx="1100" cy="530" r="5" fill="#06b6d4"/>
+</svg>

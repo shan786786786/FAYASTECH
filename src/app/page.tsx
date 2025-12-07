@@ -1,29 +1,29 @@
-import Navigation from "@/components/Navigation"
-import EnhancedHero from "@/components/EnhancedHero"
-import About from "@/components/About"
-import EnhancedPortfolio from "@/components/EnhancedPortfolio"
+import NavigationModern from "@/components/NavigationModern"
+import HeroModern from "@/components/HeroModern"
+import AboutModern from "@/components/AboutModern"
+import PortfolioModern from "@/components/PortfolioModern"
 import YouTubeSection from "@/components/YouTubeSection"
-import Contact from "@/components/Contact"
-import Footer from "@/components/Footer"
+import ContactModern from "@/components/ContactModern"
+import FooterModern from "@/components/FooterModern"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-950 text-white relative">
-      <Navigation />
+    <main className="min-h-screen bg-black text-white relative overflow-x-hidden">
+      <NavigationModern />
       <div id="hero">
-        <EnhancedHero />
+        <HeroModern />
       </div>
       <div id="about">
-        <About />
+        <AboutModern />
       </div>
       <YouTubeSection />
       <div id="portfolio">
-        <EnhancedPortfolio />
+        <PortfolioModern />
       </div>
       <div id="contact">
-        <Contact />
+        <ContactModern />
       </div>
-      <Footer />
+      <FooterModern />
     </main>
   )
 }
